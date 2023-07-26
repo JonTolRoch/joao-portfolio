@@ -2,15 +2,30 @@
 <html>
   <head>
     <title>JoaoPortfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!-- Add AOS JavaScript link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+      });
+    </script>
   </head>
-
   <body>
+    <%= render "shared/links_column"%>
+    <noscript>
+      <div style="background-color: red; color: white; text-align: center; padding: 10px;">
+        JavaScript is disabled in your browser. Some features may not work as expected.
+      </div>
+      <%= render partial: "shared/noscript_scenario/noscript_home_section" %>
+      <%= render partial: "shared/noscript_scenario/noscript_about_section" %>
+    </noscript>
     <%= yield %>
   </body>
 </html>
