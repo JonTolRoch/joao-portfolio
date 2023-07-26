@@ -1,0 +1,37 @@
+#projects{
+  background: #5b309f;
+}
+
+.main-container{
+  display:flex;
+
+}
+
+
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-body {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.text-wrapper{
+  border: 1px solid black;
+}
+
+
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}

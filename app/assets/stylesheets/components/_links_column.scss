@@ -1,0 +1,43 @@
+.links-column {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  background-color: #072b51;
+  transform: translateY(-50%);
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.text-wrapper {
+  height: 30vh;
+
+}
+
+.links-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-column li {
+  margin-bottom: 30px;
+}
+
+.links-column a {
+  text-decoration: none;
+  color: #c2e3cb;
+  font-size: 18px;
+}
+
+.links-column a:hover {
+  color: #00FF41;
+}
+
+
+
+
+
+
+
+

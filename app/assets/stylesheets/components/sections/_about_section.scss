@@ -1,0 +1,82 @@
+#about {
+  // background:url("https://i.pinimg.com/originals/2f/f6/85/2ff68556b9d25c1aed0d365af26a8042.gif");
+  background: #215b8a;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.profile-bio-wrapper {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-image {
+  padding-top: 50px;
+  padding-left:50px ;
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 1px ;
+
+}
+
+.bio-container {
+  padding-top: 800px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fff;
+  flex: 1;
+}
+
+.bio-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bio-container p {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .profile-bio-wrapper {
+    flex-direction: column;
+    align-items: center; // Center items horizontal //
+  }
+
+  .profile-image {
+    padding-top: 50px; // fix padding for small screens //
+    max-width: 50%;
+  }
+
+  .bio-container {
+    flex: none; // Remove flex to prevent it from growing //
+    max-width: 80%;
+    margin-top: 20px;
+    overflow-y: auto; // Allow bio to be scrolled //
+  }
+
+
+  .profile-bio-wrapper {
+    flex-direction: column;
+    align-items: center;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}

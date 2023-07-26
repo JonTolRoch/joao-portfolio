@@ -2,7 +2,6 @@ class ProjectsController < ApplicationController
   before_action :set_project, only: [:show]
 
   def index
-    @contact = Contact.new
     @projects = Project.all
   end
 

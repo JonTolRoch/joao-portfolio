@@ -10,3 +10,11 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "components/custom";
+@import "components/links_column";
+
+//Sections CSS partials
+@import 'components/sections/_home_section';
+@import 'components/sections/about_section';
+@import 'components/sections/projects_section';
+@import 'components/sections/contact_section';
