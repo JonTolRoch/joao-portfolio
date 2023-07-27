@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_26_171235) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_27_162817) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -21,6 +21,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_26_171235) do
     t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "modal_image"
+    t.string "modal_image_2"
+    t.text "in_depth_description"
+    t.string "modal_image_3"
   end
 
 end
