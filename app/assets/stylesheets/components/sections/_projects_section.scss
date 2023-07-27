@@ -2,36 +2,49 @@
   background: #5b309f;
 }
 
-.main-container{
-  display:flex;
-
-}
-
-
-
-.project-container {
+.main-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 70px;
 }
 
-.project-body {
-  height: 200px;
-  width: 200px;
-  margin: 10px;
-}
 
-.text-wrapper{
+
+
+.project-card {
+  width: 300px;
   border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  position: relative;
+  overflow: hidden;
+
+  transition: transform 0.3s;
+  &:hover {
+    transform: translateY(-5px);
+  }
 }
+
+
 
 
 .project-name {
+  max-width: 100%;
+  justify-content: center;
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0;
 }
 
 .project-description {
+  max-height: 80px;
   font-size: 14px;
-  margin-bottom: 20px;
+  word-wrap: break-word;
 }
+
