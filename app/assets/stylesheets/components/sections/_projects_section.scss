@@ -3,6 +3,7 @@
 }
 
 .main-container {
+  padding-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,8 +51,10 @@
 }
 
 .project-description {
+  padding-top: 10px;
+  font-weight: bold;
   max-height: 80px;
-  font-size: 14px;
+  font-size: 20px;
   word-wrap: break-word;
 }
 
