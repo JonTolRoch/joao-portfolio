@@ -1,3 +1,6 @@
+.modal-title {
+  color: aliceblue;
+}
 
 .modal-content{
   background-color: black;
@@ -5,6 +8,15 @@
 
 .detailed-description{
   color: azure;
+}
+
+.carousel-inner {
+  display: flex;
+
+}
+.modal-image {
+  object-fit: cover;
+  margin: 30px;
 }
 
 .carousel-control-prev-icon{

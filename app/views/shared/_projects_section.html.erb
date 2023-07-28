@@ -1,4 +1,7 @@
 <div class="main-container">
+  <a href="#contact">
+        <%= image_tag("arrow-down.png",alt:"Scroll Down",class:"arrow-image-projects")%>
+  </a>
   <% @projects.each do |project| %>
     <div class="project-card" data-bs-toggle='modal' data-bs-target='#modal<%= project.id%>'>
       <%= image_tag project.image, class: "project-image" %>

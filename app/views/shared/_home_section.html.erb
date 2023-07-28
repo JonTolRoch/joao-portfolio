@@ -1,25 +1,40 @@
 <div class="main-container">
+
   <div class="typed-content">
     <h2 class="static-text">Portfolio</h2>
-    <%# TYPE.JS PLUGIN FOR ANIMATION %>
+    <a href="#about">
+      <%= image_tag("arrow-down.png",alt:"Scroll Down",class:"arrow-image-home")%>
+    </a>
+
+    <%# TYPE.JS PLUGIN FOR TYPING ANIMATION %>
     <div class="intro-text typed-text" data-controller="typed" data-animation-shown="false">
     </div>
     <div class="icons-row">
-      <div class="icon-container">
-        <%= image_tag("js-logo.png", alt: "JS") %>
-      </div>
-      <div class="icon-container">
-        <%= image_tag("html-logo.png", alt: "HTML") %>
-      </div>
-      <div class="icon-container">
-        <%= image_tag("css-logo.png", alt: "CSS Logo") %>
-      </div>
+
 
       <div class="icon-container">
         <%= image_tag("ruby-logo.png", alt: "Ruby Logo") %>
+      </div>
+
+      <div class="icon-container">
+        <%= image_tag("rails-icon.jpg", alt: "Ruby on Logo") %>
+      </div>
+
+      <div class="icon-container">
+        <%= image_tag("js-logo.png", alt: "JS") %>
+      </div>
+
+      <div class="icon-container">
+        <%= image_tag("html-icon.png", alt: "HTML") %>
+      </div>
+
+      <div class="icon-container">
+        <%= image_tag("css-logo.png", alt: "CSS Logo") %>
       </div>
 
 
     </div>
   </div>
 </div>
+
+

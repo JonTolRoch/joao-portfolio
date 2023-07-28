@@ -11,7 +11,15 @@
   margin-bottom: 70px;
 }
 
-
+.arrow-image-projects {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  padding-top: 200px;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
 
 
 .project-card {
@@ -38,9 +46,6 @@
 }
 
 
-
-
-
 .project-name {
   padding-top: 50px;
   max-width: 100%;
@@ -56,5 +61,6 @@
   max-height: 80px;
   font-size: 20px;
   word-wrap: break-word;
+  color: #fff;
 }
 
