@@ -48,6 +48,22 @@
   height: auto;
 }
 
+.icon-container-ruby{
+  padding-top: 50px;
+  padding-right: 80px;
+  text-align: center;
+  width: 80px;
+  opacity: 0;
+  transition:opacity 1s ease-in-out;
+}
+.icon-container-ruby img {
+  width: 6vw;
+  height: auto;
+
+}
+
+
+
 //SMALL SCREEN CONFIG
 
 @media (max-width: 768px) {

@@ -1,23 +1,48 @@
 <div class="modal fade" id="modal<%= project.id%>" tabindex="-1" aria-labelledby="ProjectModal" aria-hidden="true">
- <div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLabel"><%= project.name%></h5>
-      <button type ="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><%= project.name%></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
 
-    <div class="modal-body">
-      <%= image_tag project.modal_image %>
-      <%= image_tag project.modal_image_2 %>
-      <%= image_tag project.modal_image_3 %>
-      <p><%= project.in_depth_description %></p>
-    </div>
+      <div class="modal-body">
+       <p class="detailed-description"><%= project.in_depth_description %></p>
+        <div id="carousel<%= project.id%>" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
 
-    <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <div class="carousel-item active">
+              <%= image_tag project.modal_image, class: "project-image" %>
+            </div>
+
+            <div class="carousel-item">
+              <%= image_tag project.modal_image_2, class: "project-image" %>
+            </div>
+
+            <div class="carousel-item">
+              <%= image_tag project.modal_image_3, class: "project-image" %>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel<%= project.id%>" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel<%= project.id%>" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
- </div>
 </div>
 
 
