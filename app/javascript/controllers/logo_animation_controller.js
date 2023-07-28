@@ -13,7 +13,7 @@ function logoAnimate() {
         container.dataset.animationShown = "true";
       }, delay);
     }
-    delay += 700;
+    delay += 250;
   });
 }
 

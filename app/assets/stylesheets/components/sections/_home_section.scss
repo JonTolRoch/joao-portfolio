@@ -7,11 +7,23 @@
 }
 
 
+.arrow-image-home {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  padding-bottom: 300px;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+
 .static-text {
   font-size: 4rem;
   color: #787676;
   font-family: Doyle;
 }
+
 
 .typed-text, .typed-cursor {
   font-size: 5rem;
@@ -27,7 +39,6 @@
 }
 
 .icons-row{
-  padding-right: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,7 +48,7 @@
 
 .icon-container{
   padding-top: 50px;
-  padding-right: 80px;
+  padding-right: 100px;
   text-align: center;
   width: 80px;
   opacity: 0;
@@ -48,19 +59,6 @@
   height: auto;
 }
 
-.icon-container-ruby{
-  padding-top: 50px;
-  padding-right: 80px;
-  text-align: center;
-  width: 80px;
-  opacity: 0;
-  transition:opacity 1s ease-in-out;
-}
-.icon-container-ruby img {
-  width: 6vw;
-  height: auto;
-
-}
 
 
 

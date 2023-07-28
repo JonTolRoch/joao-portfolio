@@ -6,11 +6,21 @@
 }
 
 .profile-bio-wrapper {
-  padding-top: 100px;
+  padding-top: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.arrow-image-about {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  padding-bottom: 500px;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
 
 .profile-image {
   padding-top: 50px;
