@@ -1,3 +1,22 @@
 #contact {
   background: #c322a2;
 }
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.link-row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1.0em;
+}
+
+.link-item {
+  padding-left:2.5em;
+  padding-right:2.5em;
+}
+
+
