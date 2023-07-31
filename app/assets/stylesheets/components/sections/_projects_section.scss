@@ -24,6 +24,7 @@
 
 .project-card {
   background: #714cad;
+  position: relative;
   width: 300px;
   border: 1px solid black;
   border-radius: 4px;
@@ -33,7 +34,8 @@
   align-items: center;
   min-height: 250px;
   position: relative;
-  overflow: hidden;
+  text-align: center;
+
 
   transition: transform 0.3s;
   &:hover {
@@ -60,9 +62,36 @@
   padding-top: 10px;
   font-weight: bold;
   max-height: 80px;
-  font-size: 20px;
-  word-wrap: break-word;
+  font-size: 16px;
   color: #fff;
   border: #fff 1px auto;
+}
+
+.details-button {
+  position: absolute;
+  bottom:10px;
+  min-width: 100px;
+  display:flex;
+  font-family: Doyle;
+  border: 1px solid #ea88e6;
+  border-radius:20px;
+  background-color: #9668df;
+  transition: all .3s ease-in;
+
+  &:hover {
+    color: white;
+    background-color: #6bcaf7;
+    transition: all .3s ease-in;
+  }
+}
+
+
+.button-text {
+  padding-top: 5%;
+  padding-left: 20%;
+  font-family: Doyle;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 16px;
 }
 
