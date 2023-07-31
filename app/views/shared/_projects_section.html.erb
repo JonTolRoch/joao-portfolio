@@ -7,6 +7,10 @@
       <%= image_tag project.image, class: "project-image" %>
       <%#<h2 class="project-name"><%= project.name %><%#</h2>%>
       <h2 class="project-description"><%= project.description %></h2>
+      <div class="details-button">
+      <h1 class="button-text">Details</h1>
+
+      </div>
     </div>
 
     <%= render 'modals/project_modal', project: project %>
