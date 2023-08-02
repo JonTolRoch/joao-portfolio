@@ -19,7 +19,7 @@
   padding-top: 200px;
   right: 10px;
   transform: translateY(-50%);
-  z-index: 999;
+  z-index: 5;
 }
 
 
@@ -97,12 +97,31 @@
 }
 
 .gif-container {
+  padding-right: 50px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+
+.text-baloon {
+  justify-content: flex-end;
+  padding-bottom: 50vh;
+}
+
+.speech-bubble {
+  background: #f3f0f0;
+  border: #000000 1px solid;
+  border-radius: .4em;
+  padding: 10px;
+}
+
+.speech-bubble:after {
+  border: 1.344em solid transparent;
+  margin-left: -0.672em;
+  margin-bottom: -1.344em;
 }
 
