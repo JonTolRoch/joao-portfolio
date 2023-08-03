@@ -2,21 +2,49 @@
   background: #c322a2;
 }
 
-.links-container {
+.main-contact-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-direction: row;
-}
-.link-row {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 1.0em;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 40vh;
+
 }
 
-.link-item {
-  padding-left:2.5em;
-  padding-right:2.5em;
+.goodbye-text {
+  font-size: 4rem;
+  color: #fdfafa;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.email-me {
+  font-size: 2rem;
+  color: #fdfafa;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.email-me a {
+  letter-spacing: 0cm;
+  text-decoration: none;
+  color: chartreuse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.find-me  {
+  font-size: 2rem;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.find-me a {
+  letter-spacing: 0cm;
+  text-decoration: none;
+  color: chartreuse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
 
 
