@@ -1,5 +1,5 @@
 #contact {
-  background: #c322a2;
+  background: #6904a3;
 }
 
 .main-contact-container {
@@ -12,6 +12,7 @@
 }
 
 .goodbye-text {
+  letter-spacing: 0.5rem;
   font-size: 4rem;
   color: #fdfafa;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -19,27 +20,28 @@
 
 .email-me {
   font-size: 2rem;
-  color: #fdfafa;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #cae134;
+  font-family: Doyle;
 
 
 }
 .email-me a {
+  font-size: 1.5rem;
   letter-spacing: 0cm;
-  text-decoration: none;
   color: chartreuse;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .find-me  {
+  padding-top: 10vh;
   font-size: 2rem;
-  color: #fff;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #e1eb25;
+  font-family: Doyle;
 }
 
 .find-me a {
-  letter-spacing: 0cm;
-  text-decoration: none;
+  padding-bottom: 0.9rem;
+  font-size: 1.5rem;
   color: chartreuse;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
