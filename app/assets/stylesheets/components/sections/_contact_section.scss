@@ -1,5 +1,5 @@
 #contact {
-  background: #6904a3;
+  background: #2C2C54;
 }
 
 .main-contact-container {
@@ -20,7 +20,6 @@
 }
 
 .email-me {
-  border: 1px black solid;
   font-size: 2rem;
   color: #f2f2f2;
   font-family: Doyle;
@@ -28,6 +27,7 @@
 
 
 .email-me a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0cm;
   color: chartreuse;
@@ -35,7 +35,6 @@
 }
 
 .find-me  {
-  border: 1px black solid;
   padding-top: 10vh;
   font-size: 2rem;
   color: #efefef;
@@ -43,6 +42,7 @@
 }
 
 .find-me a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-bottom: 0.9rem;
   text-decoration: none;
   font-size: 1.5rem;

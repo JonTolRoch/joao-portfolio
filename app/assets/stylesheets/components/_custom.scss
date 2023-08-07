@@ -36,8 +36,8 @@ header.fixed-to-top {
   background: #7b63b8;
   // background: url("https://www.psdgraphics.com/wp-content/uploads/2020/11/purple-paper-texture-768x512.jpg");
 
-
 }
+
 
 .nav-logo {
   width: 10vh;
@@ -88,13 +88,30 @@ section {
 }
 
 
+#hamburger-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+
 
 
 
 
 //RESPONSIVNESS
+@media (max-width: 768px) {
+  #hamburger-icon {
+    display: flex;
+  }
 
-@media (max-width: 768px){
   .logo {
     color: #ccc;
     float: none;
@@ -102,24 +119,44 @@ section {
     width: 100%;
   }
 
-  .logo h1 {
+  .logo h2 {
     letter-spacing: 10px;
     text-shadow: 2px 2px 5px #111;
     text-transform: capitalize;
   }
 
   nav {
-    float: none;
-    text-align: center;
+    display: none;
   }
 
   nav li {
     display: block;
-    margin: 10px 0;
+
   }
 
-}
+  nav.open {
+    display: block;
+  }
 
+  .wrapHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #hamburger-icon.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #hamburger-icon.open .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  #hamburger-icon.open .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+}
 
 
 
