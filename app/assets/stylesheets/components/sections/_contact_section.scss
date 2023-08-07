@@ -8,6 +8,7 @@
   align-items: flex-start;
   flex-direction: column;
   padding-top: 40vh;
+  padding-right:50vh;
 
 }
 
@@ -19,12 +20,13 @@
 }
 
 .email-me {
+  border: 1px black solid;
   font-size: 2rem;
-  color: #cae134;
+  color: #f2f2f2;
   font-family: Doyle;
-
-
 }
+
+
 .email-me a {
   font-size: 1.5rem;
   letter-spacing: 0cm;
@@ -33,14 +35,16 @@
 }
 
 .find-me  {
+  border: 1px black solid;
   padding-top: 10vh;
   font-size: 2rem;
-  color: #e1eb25;
+  color: #efefef;
   font-family: Doyle;
 }
 
 .find-me a {
   padding-bottom: 0.9rem;
+  text-decoration: none;
   font-size: 1.5rem;
   color: chartreuse;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
