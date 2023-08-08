@@ -102,10 +102,55 @@
   }
 
   .icon-container img {
-    width: 30%;
+    width: 50%;
   }
 }
 
 
 
+
+//TABLET
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .static-text {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .arrow-image-home {
+    display: none;
+    opacity: 0;
+  }
+
+  .typed-text, .typed-cursor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .icons-row {
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-container {
+    padding-top: 20px;
+    padding-right: 0;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .icon-container img {
+    width: 50%;
+  }
+
+}
 
