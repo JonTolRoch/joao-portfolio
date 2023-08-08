@@ -7,6 +7,10 @@
 }
 
 
+.home-main-container {
+  padding-bottom: 10vh;
+}
+
 .arrow-image-home {
   width: 60px;
   height: auto;
@@ -59,6 +63,32 @@
   height: auto;
 }
 
+.face-logo {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 38vw;
+  padding-top: 10vh;
+  display: inline-block;
+  position: relative;
+}
+
+.face-logo img {
+  position: absolute;
+  bottom: -188px;
+  right: -380px;
+  width: 36vw;
+  height: auto;
+  animation: floatAnimation 4s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+}
 
 
 
@@ -72,6 +102,8 @@
     align-items: center;
     text-align: center;
   }
+
+
 
   .arrow-image-home {
     display: none;
