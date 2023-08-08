@@ -76,11 +76,18 @@
     max-width: 50%;
   }
 
+  .arrow-image-about{
+    display: none;
+    opacity: 0;
+  }
+
+
+
   .bio-container {
-    flex: none; // Remove flex to prevent it from growing //
+    flex: none;
     max-width: 80%;
     margin-top: 20px;
-    overflow-y: auto; // Allow bio to be scrolled //
+    overflow-y: auto;
   }
 
 

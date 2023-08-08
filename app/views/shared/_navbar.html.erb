@@ -2,7 +2,7 @@
   <div class="wrapHead">
     <div class="logo">
       <h2>
-      <%= image_tag("jt-logo.png",alt:"logo",class:"nav-logo") %>
+        <%= image_tag("jt-logo.png",alt:"logo",class:"nav-logo") %>
       </h2>
     </div>
     <nav>
@@ -14,11 +14,20 @@
       </ul>
     </nav>
 
-   <div id="hamburger-icon" data-controller="hamburger" data-action="click->hamburger#toggle">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-   </div>
-
+    <div id="hamburger-icon" data-controller="hamburger" data-action="click->hamburger#toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
   </div>
 </header>
+
+<nav id="mobile-menu" data-controller="hamburger">
+  <ul>
+    <li><a href="#home" class="scroll">Home</a></li>
+    <li><a href="#about" class="scroll">About</a></li>
+    <li><a href="#projects" class="scroll">Projects</a></li>
+    <li><a href="#contact" class="scroll">Contact me</a></li>
+  </ul>
+</nav>
+

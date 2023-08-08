@@ -133,3 +133,12 @@
   margin-bottom: -1.344em;
 }
 
+@media (max-width: 768px){
+
+  .arrow-image-projects{
+    opacity: 0;
+    display: none;
+  }
+
+}
+
