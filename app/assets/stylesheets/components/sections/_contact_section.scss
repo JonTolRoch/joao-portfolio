@@ -50,6 +50,80 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media (max-width: 575px){
+  .main-contact-container{
+    display: block;
+    max-width: 60%;
+    padding: 5vh 10% 0;
+    margin: 0 auto;
+  }
+
+  .goodbye-text{
+    padding-top: 5vh;
+    font-size: 1.5rem;
+  }
+
+  .email-me {
+    font-size: 0.8rem;
+  }
+
+  .find-me{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .main-contact-container{
+    display: block;
+    max-width: 80%;
+    padding: 10vh 10% 0;
+    margin: 0 auto;
+  }
+
+  .goodbye-text{
+    padding-top: 5vh;
+    font-size: 3rem;
+  }
+
+  .email-me {
+    padding-top: 10vh;
+    font-size: 1.5rem;
+  }
+
+  .find-me{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .main-contact-container{
+    display: block;
+    max-width: 80%;
+    padding: 10vh 10% 0;
+    margin: 0 auto;
+  }
+
+  .goodbye-text{
+    padding-top: 5vh;
+    font-size: 3rem;
+  }
+
+  .email-me {
+    padding-top: 10vh;
+    font-size: 1.5rem;
+  }
+
+  .find-me{
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
 
 
 
