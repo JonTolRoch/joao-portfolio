@@ -60,14 +60,16 @@ nav {
 }
 
 nav li {
+  padding-top: 22px;
   display: inline-block;
   margin: 0 4px;
 }
 
 nav li a {
-  padding-top: 50px;
-  font-family: Doyle;
-  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   // padding: 10px 0;
   text-decoration: none;
   color: #e1e1e1;
@@ -109,6 +111,21 @@ section {
 
 
 //RESPONSIVNESS
+@media (max-width:280px){
+  .header{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #hamburger-icon {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
+
+}
+
 @media (max-width: 575px){
   .logo {
     color: #ccc;
@@ -186,7 +203,7 @@ section {
     display: flex;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 5px;
   }
 
   #hamburger-icon.open .bar:nth-child(2) {
@@ -285,7 +302,7 @@ section {
     display: flex;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 60px;
   }
 
   #hamburger-icon.open .bar:nth-child(2) {

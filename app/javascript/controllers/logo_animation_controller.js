@@ -1,15 +1,8 @@
 function logoAnimate() {
 
-  const faceAnimate = document.querySelector('.face-logo');
   const iconContainers = document.querySelectorAll('.icon-container');
   let delay = 0;
 
-  if (faceAnimate){
-    setTimeout(()=>{
-      faceAnimate.style.opacity = 1;
-    },delay);
-    delay += 500;
-  }
 
   iconContainers.forEach((container) => {
     const animationShown = container.dataset.animationShown === "true";

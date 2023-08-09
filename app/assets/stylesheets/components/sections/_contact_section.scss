@@ -50,10 +50,18 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.contact-logo {
-  width: 18vh;
-  height: auto;
+.social-links{
+  display: flex;
 }
+
+.social-links a {
+  padding-right: 20px;
+}
+
+
+
+
+
 
 @media (max-width: 575px){
   .main-contact-container{
@@ -62,18 +70,25 @@
     padding: 5vh 10% 0;
     margin: 0 auto;
   }
+  .email-me a {
+    font-size:0.8rem ;
+  }
+
+  .social-links a {
+    font-size: 0.9rem;
+  }
 
   .goodbye-text{
     padding-top: 5vh;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .email-me {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
   .find-me{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
 }
@@ -87,9 +102,18 @@
     margin: 0 auto;
   }
 
+  .email-me a {
+    font-size:1rem ;
+  }
+
+  .social-links a {
+    font-size: 0.9rem;
+  }
+
   .goodbye-text{
     padding-top: 5vh;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
   .email-me {
@@ -98,7 +122,7 @@
   }
 
   .find-me{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -110,18 +134,26 @@
     margin: 0 auto;
   }
 
+  .email-me a {
+    font-size:1.2rem ;
+  }
+
+  .social-links a {
+    font-size: 0.9rem;
+  }
+
   .goodbye-text{
     padding-top: 5vh;
-    font-size: 3rem;
+    font-size: 1rem;
   }
 
   .email-me {
     padding-top: 10vh;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
   }
 
   .find-me{
-    font-size: 1.5rem;
+    font-size: 0.5rem;
   }
 }
 
