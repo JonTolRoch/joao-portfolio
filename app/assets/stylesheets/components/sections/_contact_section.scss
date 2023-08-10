@@ -7,8 +7,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding-top: 40vh;
-  padding-right:50vh;
+  padding-top: 10vh;
+  padding-right:5vh;
 
 }
 
@@ -19,14 +19,14 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.email-me {
+.contact-item {
   font-size: 2rem;
   color: #f2f2f2;
   font-family: Doyle;
 }
 
 
-.email-me a {
+.contact-item a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0cm;
@@ -34,128 +34,122 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.find-me  {
-  padding-top: 10vh;
-  font-size: 2rem;
-  color: #efefef;
-  font-family: Doyle;
-}
-
-.find-me a {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding-bottom: 0.9rem;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: chartreuse;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.social-links{
-  display: flex;
-}
-
-.social-links a {
-  padding-right: 20px;
-}
 
 
-
-
-
-
-@media (max-width: 575px){
-  .main-contact-container{
-    display: block;
-    max-width: 60%;
-    padding: 5vh 10% 0;
-    margin: 0 auto;
+@media (max-width:320px){
+  .goodbye-text {
+    padding-top: 3vh;
+    font-size: 1rem;
   }
-  .email-me a {
-    font-size:0.8rem ;
-  }
-
-  .social-links a {
-    font-size: 0.9rem;
-  }
-
-  .goodbye-text{
-    padding-top: 5vh;
+  .contact-item {
     font-size: 1rem;
   }
 
-  .email-me {
-    font-size: 0.5rem;
-  }
-
-  .find-me{
-    font-size: 0.5rem;
-  }
-
-}
-
-@media (max-width:768px){
-
-  .main-contact-container{
-    display: block;
-    max-width: 80%;
-    padding: 10vh 10% 0;
-    margin: 0 auto;
-  }
-
-  .email-me a {
-    font-size:1rem ;
-  }
-
-  .social-links a {
-    font-size: 0.9rem;
-  }
-
-  .goodbye-text{
-    padding-top: 5vh;
-    font-size: 1.5rem;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  }
-
-  .email-me {
-    padding-top: 10vh;
-    font-size: 1.5rem;
-  }
-
-  .find-me{
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px){
-  .main-contact-container{
-    display: block;
-    max-width: 80%;
-    padding: 10vh 10% 0;
-    margin: 0 auto;
-  }
-
-  .email-me a {
-    font-size:1.2rem ;
-  }
-
-  .social-links a {
-    font-size: 0.9rem;
-  }
-
-  .goodbye-text{
-    padding-top: 5vh;
+  .contact-item a {
     font-size: 1rem;
   }
 
-  .email-me {
-    padding-top: 10vh;
-    font-size: 0.5rem;
+}
+
+ @media (min-width:321px) and (max-width: 600px){
+   .main-contact-container{
+     display: block;
+     max-width: 60%;
+     padding: 5vh 10% 0;
+     margin: 0 auto;
+   }
+   .contact-item a {
+     font-size:1rem ;
+   }
+
+   .goodbye-text{
+     padding-top: 3vh;
+     font-size: 2rem;
+   }
+
+   .contact-item {
+     font-size: 1rem;
+    }
   }
 
-  .find-me{
-    font-size: 0.5rem;
-  }
-}
+ @media (min-width:601px) and (max-width:768px){
+
+   .main-contact-container{
+     display: block;
+     max-width: 80%;
+     padding: 10vh 10% 0;
+     margin: 0 auto;
+   }
+
+   .contact-item a {
+     font-size:1.5rem ;
+   }
+
+
+   .goodbye-text{
+     padding-top: 5vh;
+     font-size: 2rem;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+   }
+
+   .contact-item {
+     padding-top: 10vh;
+     font-size: 1.5rem;
+   }
+ }
+
+
+ @media (min-width: 769px) and (max-width: 1024px){
+   .main-contact-container{
+     display: block;
+     max-width: 80%;
+     padding: 10vh 10% 0;
+     margin: 0 auto;
+   }
+
+   .contact-item a {
+     font-size:2rem ;
+   }
+
+   .goodbye-text{
+     padding-top: 5vh;
+     font-size: 3rem;
+   }
+
+   .contact-item {
+     padding-top: 10vh;
+     font-size: 2rem;
+   }
+ }
+
+
+// @media (max-width:820px){
+
+//   .main-contact-container{
+//     display: block;
+//     max-width: 80%;
+//     padding: 10vh 10% 0;
+//     margin: 0 auto;
+//   }
+
+//   .contact-item a {
+//     font-size:1.5rem ;
+//   }
+
+
+//   .goodbye-text{
+//     padding-top: 5vh;
+//     font-size: 3rem;
+//   }
+
+//   .contact-item {
+//     padding-top: 10vh;
+//     font-size: 2rem;
+//   }
+
+// }
+
+
 
 
 
