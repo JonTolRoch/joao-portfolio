@@ -314,10 +314,28 @@
 
 }
 
+
 @media (min-width: 1024px) and (max-width:1024px){
   .arrow-image-home {
     display: none;
     opacity: 0;
+  }
+  .face-logo {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 38vw;
+    padding-top: 10vh;
+    display: inline-block;
+    position: relative;
+  }
+
+  .face-logo img {
+    position: absolute;
+    bottom: -170px;
+    right: -380px;
+    width: 36vw;
+    height: auto;
+    animation: floatAnimation 4s ease-in-out infinite;
   }
 }
 

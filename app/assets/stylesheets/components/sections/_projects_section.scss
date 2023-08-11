@@ -28,7 +28,7 @@
   position: relative;
   width: 300px;
   border: 1px solid black;
-  border-radius: 10 px;
+  border-radius: 15px;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,8 @@
 .project-description {
   padding-top: 10px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Doyle;
+  text-shadow: 2px 2px 5px #111;
   max-height: 80px;
   font-size: 16px;
   color: #ffffff;
@@ -107,8 +108,10 @@
   height: 100%;
 }
 .pan-animate{
+  position: absolute;
   object-fit: cover;
   padding-left: 20vh;
+  bottom: -20px;
 }
 
 
@@ -136,192 +139,174 @@
 
 
 
-@media (min-width: 320px) and (max-width: 375px){
-  .project-main-container {
-      overflow-y: auto;
-      max-height: 100vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-  }
+// Mobile
+@media (min-width: 320px) and (max-width: 376px) {
   .arrow-image-projects{
-    opacity: 0;
-    display: none;
-  }
-  .gif-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      width: 40%;
-      height: auto;
- }
-  .pan-animate {
-      position: absolute;
-      object-fit: cover;
-      padding-top: 20vh;
-      bottom: 100%;
-      right: 5%;
- }
-}
-
-  @media (min-width: 375px) and (max-width: 600px){
-
-    .project-main-container {
-      overflow-y: auto;
-      max-height: 100vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-  }
-    .arrow-image-projects{
-      opacity: 0;
-      display: none;
-    }
-
-    .gif-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    .pan-animate {
-      position: absolute;
-      object-fit: cover;
-      width: 520px;
-      height: auto;
-      padding-top: 20vh;
-      // bottom: 35%;
-      // right: -20px;
-    }
-
-  }
-
-  @media (min-width:413px) and (max-width:415px) {
-    .project-main-container {
-      overflow-y: auto;
-      max-height: 100vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-  }
-    .arrow-image-projects{
-      opacity: 0;
-      display: none;
-    }
-
-    .gif-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-
-    .pan-animate {
-      position: absolute;
-      object-fit: cover;
-      width: 520px;
-      height: auto;
-      padding-top: 20vh;
-      // bottom: 35%;
-       right: -400px;
-    }
-  }
-
-
-
-
-
-@media (min-width:376px) and (max-width: 768px) {
-  .project-main-container {
+     opacity: 0;
+     display: none;
+   }
+   .project-main-container{
+    display: flex;
     overflow-y: auto;
-    max-height: 100vh;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
   }
 
+  .pan-animate{
+    bottom: -70px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 398px){
   .arrow-image-projects{
     opacity: 0;
     display: none;
   }
+  .project-main-container{
+   display: flex;
+   overflow-y: auto;
+   flex-direction: row;
+ }
+ .gif-container{
+  padding-top: 50px;
+ }
 
-  .project-card {
-    max-width: 50%;
-    height: auto;
-    transform: translateY();
-  }
+ .pan-animate{
+   bottom: 60px;
+   left: 7px;
+   padding: 0;
+ }
+}
 
-  .pan-animate {
-    padding-top: 20vh;
+@media (min-width: 399px) and (max-width: 405px){
+  .arrow-image-projects{
+    opacity: 0;
+    display: none;
   }
+  .project-main-container{
 
-  .gif-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+   display: flex;
+   overflow-y: auto;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+ }
+ .gif-container{
+  position: relative;
+  padding-top: 50px;
+ }
 
-  .pan-animate {
-    position: absolute;
-    object-fit: cover;
-    padding-top: 20vh;
-    bottom: 35%;
-    right: 5%;
+ .pan-animate{
+  position: absolute;
+   bottom: 40px;
+   right: -120px;
+ }
+}
+
+@media (min-width:406px) and (max-width:420px){
+  .arrow-image-projects{
+    opacity: 0;
+    display: none;
   }
+  .project-main-container{
+   display: flex;
+   overflow-y: auto;
+   flex-direction: row;
+ }
+ .gif-container{
+  padding-top: 50px;
+ }
+
+ .pan-animate{
+   bottom: 100px;
+   left: 7px;
+   padding: 0;
+ }
+
 }
 
 
 
+// iPads, Tablets
+@media (min-width: 481px) and (max-width: 768px) {
+     .project-main-container {
+     overflow-y: auto;
+     max-height: 80vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .arrow-image-projects{
+     opacity: 0;
+     display: none;
+   }
+
+   .project-card {
+     max-width: 50%;
+     height: auto;
+     transform: translateY();
+   }
+
+
+
+   .pan-animate {
+     position: absolute;
+     width: 100vw;
+     bottom: -200px;
+     right: -100px;
+     padding: 0;
+   }
+  }
+
+
+// Small screens, laptops
 @media (min-width: 769px) and (max-width: 1023px) {
-  .project-main-container {
-    overflow-y: auto;
-    max-height: 120vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+     .project-main-container {
+     overflow-y: auto;
+     max-height: 80vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .arrow-image-projects{
+     opacity: 0;
+     display: none;
+   }
+
+   .project-card {
+     max-width: 50%;
+     height: auto;
+     transform: translateY();
+   }
+
+   .gif-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+   }
+
+   .pan-animate {
+      position: absolute;
+      object-fit: cover;
+      padding-top: 20vh;
+      bottom: 10vh;
+      right: 15vw;
+   }
   }
 
-  .arrow-image-projects{
-    opacity: 0;
-    display: none;
-  }
 
-  .project-card {
-    max-width: 50%;
-    height: auto;
-    transform: translateY();
-  }
+// Desktops, large screens
+@media (min-width: 1025px) and (max-width: 1200px) {
 
-  .gif-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+}
 
-  .pan-animate {
-    position: absolute;
-    object-fit: cover;
-    padding-top: 20vh;
-    bottom: 40%;
-    right: 10%;
-  }
+// Extra large screens, TV
+@media (min-width: 1201px) {
 
 }
 
