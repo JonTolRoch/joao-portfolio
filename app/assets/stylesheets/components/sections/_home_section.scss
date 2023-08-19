@@ -90,6 +90,63 @@
   }
 }
 
+//Fold
+@media (min-width: 280px) and (max-width: 290px){
+  .static-text {
+    font-size: 2.5rem; // Fix font size for smaller screens //
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .face-logo {
+    padding-right: 20px;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .face-logo img {
+    width: 70vw;
+    bottom: -10px;
+    position: absolute;
+    left: 40%;
+  }
+
+
+  .arrow-image-home {
+    display: none;
+    opacity: 0;
+  }
+
+  .typed-text, .typed-cursor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .icons-row {
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-container {
+    padding-top: 20px;
+    padding-right: 0;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .icon-container img {
+    width: 50%;
+  }
+
+}
+
 // Mobile
 @media (min-width: 320px) and (max-width: 480px) {
   .static-text {
@@ -152,7 +209,7 @@
 // iPads, Tablets
 @media (min-width: 481px) and (max-width: 768px) {
   .static-text {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +217,7 @@
   }
 
   .face-logo img {
-    width: 60vw;
+    width: 40vw;
     bottom: -10px;
     right: -330px;
   }
@@ -315,29 +372,29 @@
 }
 
 
-@media (min-width: 1024px) and (max-width:1024px){
-  .arrow-image-home {
-    display: none;
-    opacity: 0;
-  }
-  .face-logo {
-    margin: 0px;
-    padding: 0px;
-    padding-left: 38vw;
-    padding-top: 10vh;
-    display: inline-block;
-    position: relative;
-  }
+ @media (min-width: 1024px) and (max-width:1024px){
+   .arrow-image-home {
+     display: none;
+     opacity: 0;
+   }
+   .face-logo {
+     margin: 0px;
+     padding: 0px;
+     padding-left: 38vw;
+     padding-top: 10vh;
+     display: inline-block;
+     position: relative;
+   }
 
-  .face-logo img {
-    position: absolute;
-    bottom: -170px;
-    right: -380px;
-    width: 36vw;
-    height: auto;
-    animation: floatAnimation 4s ease-in-out infinite;
-  }
-}
+   .face-logo img {
+     position: absolute;
+     bottom: -170px;
+     right: -380px;
+     width: 36vw;
+     height: auto;
+     animation: floatAnimation 4s ease-in-out infinite;
+   }
+ }
 
 
 
