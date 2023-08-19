@@ -9,8 +9,8 @@
   flex-direction: column;
   padding-top: 30vh;
   padding-right:5vh;
-
 }
+
 
 .goodbye-text {
   letter-spacing: 0.5rem;
@@ -52,14 +52,15 @@
 }
 
  @media (min-width:321px) and (max-width: 600px){
-   .main-contact-container{
-     display: block;
-     max-width: 60%;
-     padding: 5vh 10% 0;
-     margin: 0 auto;
+
+  .main-contact-container{
+    padding: 15vh;
+    margin: 15vh;
    }
+
    .contact-item a {
      font-size:1rem ;
+     margin-bottom: 1rem;
    }
 
    .goodbye-text{
@@ -74,12 +75,9 @@
 
  @media (min-width:601px) and (max-width:768px){
 
-   .main-contact-container{
-     display: block;
-     max-width: 80%;
-     padding: 10vh 10% 0;
-     margin: 0 auto;
-   }
+  .main-contact-container{
+    padding: 15vh;
+    margin: 20vh;}
 
    .contact-item a {
      font-size:1.5rem ;
