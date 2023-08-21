@@ -286,7 +286,7 @@
 
 
 // Small screens, laptops
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 819px) {
      .project-main-container {
      overflow-y: auto;
      max-height: 80vh;
@@ -318,12 +318,91 @@
   //   display: none;
   //  }
   .pan-animate{
-    width: 100vw;
+    width: 50vw;
     position: absolute;
     object-fit: cover;
     padding-left: 20vh;
     bottom: 40px;
   }
+}
+
+//IPAD AIR
+@media (min-width:820px) and (max-width:820px){
+  .project-main-container {
+    overflow-y: auto;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arrow-image-projects{
+    opacity: 0;
+    display: none;
+  }
+
+  .project-card {
+    max-width: 50%;
+    height: auto;
+    transform: translateY();
+  }
+
+  .gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .pan-animate{
+   width: 100vw;
+   position: absolute;
+   object-fit: cover;
+   padding-left: 20vh;
+   bottom: 40px;
+  }
+
+}
+
+@media (min-width: 821px) and (max-width: 1023px) {
+  .project-main-container {
+  overflow-y: auto;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-image-projects{
+  opacity: 0;
+  display: none;
+}
+
+.project-card {
+  max-width: 50%;
+  height: auto;
+  transform: translateY();
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+//  .pan-animate{
+//   display: none;
+//  }
+.pan-animate{
+ width: 50vw;
+ position: absolute;
+ object-fit: cover;
+ padding-left: 20vh;
+ bottom: 40px;
+}
 }
 
 

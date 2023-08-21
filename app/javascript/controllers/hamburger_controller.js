@@ -9,6 +9,11 @@ export default class extends Controller {
       hamburgerIcon.classList.toggle("open");
       mobileMenu.classList.toggle("open");
     });
+
+    mobileMenu.addEventListener("click",()=>{
+      hamburgerIcon.classList.remove("open");
+      mobileMenu.classList.remove("open");
+    });
   }
 }
 
