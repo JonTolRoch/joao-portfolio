@@ -39,6 +39,12 @@
 
 
       <div class="modal-footer">
+        <%= link_to project.url,class: "btn btn-primary" do %>
+           <i class="fa-solid fa-globe"></i> Project Working
+        <%end%>
+        <%= link_to project.gh_repo,class: "btn btn-primary" do%>
+           <i class="fab fa-github"></i> GitHub Repository
+         <%end%>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
