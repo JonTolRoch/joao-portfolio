@@ -138,6 +138,7 @@ section {
     color: #ccc;
     text-align: center;
     width: 100%;
+    z-index: 999;
   }
 
   .logo h2 {
@@ -169,6 +170,7 @@ section {
   #mobile-menu.open {
     display: block;
     opacity: 1;
+    z-index: 997;
   }
 
   #mobile-menu ul {
@@ -196,8 +198,8 @@ section {
   }
 
   #hamburger-icon {
-    z-index: 999;
-    position: absolute; /* You can adjust the positioning */
+    z-index: 998;
+    position: absolute;
   }
 
   #hamburger-icon.open .bar:nth-child(2) {
