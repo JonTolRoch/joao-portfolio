@@ -1,23 +1,19 @@
 <div class="about-section">
-
   <div class="profile-bio-wrapper">
-
-     <a href="#projects">
-        <%= image_tag("arrow-down.png",alt:"Scroll Down",class:"arrow-image-about")%>
-      </a>
-
+    <a href="#projects">
+    <%= image_tag("arrow-down.png",alt:"Scroll Down",class:"arrow-image-about")%>
+    </a>
     <%= image_tag("linkedin-picture.jpeg", alt: "Joao", class: "profile-image", data: { aos: "flip-left", aos_duration: 700, aos_delay: 250 }) %>
     <div class="bio-container" data-aos="fade-right" data-aos-duration="700">
       <h3>Hello , i'm João.</h3>
       <p>
-        "I`m a creative person with a background in music, I have discovered a newfound passion for developing applications and appealing UIs. I thrive on continuous learning, knowing that it's a never-ending journey.
+        "A creative person with a background in music. I have discovered a newfound passion for developing applications and appealing UIs. I thrive on continuous learning, knowing that it's a never-ending journey.
         Being part of a collaborative team is an exciting prospect for me. I've learned from previous experiences the value of well-structured teams that work together to achieve optimal outcomes for applications. As a team player, I am committed to being a diligent and dedicated contributor, striving to deliver exceptional results."
       </p>
-       <span class="cv-button">
-        <a href="<%= asset_path('curriculum.pdf') %>" download="curriculum.pdf">DOWNLOAD CV</a>
-       </span>
+      <span class="cv-button">
+      <a href="<%= asset_path('curriculum.pdf') %>" download="curriculum.pdf">DOWNLOAD CV</a>
+      </span>
     </div>
-
   </div>
 </div>
 
