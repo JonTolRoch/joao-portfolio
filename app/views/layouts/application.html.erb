@@ -9,8 +9,18 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <!-- Add AOS JavaScript link -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <%# MAKE APP OPEN IN HOME SECTION ON MOBILE  %>
+    <script>
+    document.addEventListener("DOMContentLoaded",function(){
+      if(window.innerWidth < 1023){
+        window.location.href="#home"
+      }
+    });
+    </script>
+
+    <%# ADD AOS ANIMATION BUT LIMIT SCREEN SIZE SUPPORT TO AVOID BUGGY BEHAVIOUR %>
     <script>
       document.addEventListener("DOMContentLoaded",function(){
         if (window.innerWidth < 768){
@@ -22,8 +32,8 @@
           AOS.init();
         }
       });
-
     </script>
+
   </head>
   <body>
     <%= render "shared/links_column"%>
