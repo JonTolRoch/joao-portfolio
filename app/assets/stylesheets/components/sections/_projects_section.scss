@@ -171,6 +171,8 @@
    .project-main-container{
     display: flex;
     overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
     flex-direction: row;
   }
 
@@ -187,6 +189,8 @@
   .project-main-container{
    display: flex;
    overflow-y: auto;
+   overflow-x: hidden;
+    width: 100%;
    flex-direction: row;
  }
  .gif-container{
@@ -209,6 +213,8 @@
 
    display: flex;
    overflow-y: auto;
+   overflow-x: hidden;
+   width: 100%;
    flex-direction: row;
    align-items: center;
    justify-content: center;
@@ -234,6 +240,8 @@
   .project-main-container{
    display: flex;
    overflow-y: auto;
+   overflow-x: hidden;
+   width: 100%;
    flex-direction: row;
  }
  .gif-container{
