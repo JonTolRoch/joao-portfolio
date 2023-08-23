@@ -12,9 +12,17 @@
     <!-- Add AOS JavaScript link -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        AOS.init();
+      document.addEventListener("DOMContentLoaded",function(){
+        if (window.innerWidth < 768){
+          var disableAOS = document.querySelectorAll('[data-aos="flip-left"], [data-aos="fade-right"]')
+          disableAOS.forEach(function(element){
+            element.removeAttribute("data-aos");
+          });
+        }else{
+          AOS.init();
+        }
       });
+
     </script>
   </head>
   <body>
@@ -29,3 +37,5 @@
     <%= yield %>
   </body>
 </html>
+
+
