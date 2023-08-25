@@ -94,6 +94,14 @@
 
 
 @media (max-width: 768px) {
+  #about{
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+  }
+
+
   .profile-bio-wrapper {
     flex-direction: column;
     align-items: center; // Center items horizontal //
@@ -121,12 +129,13 @@
   }
 
 
+
   .profile-bio-wrapper {
     flex-direction: column;
     align-items: center;
     max-height: 70vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    // overflow-y: auto;
+    // overflow-x: hidden;
     width: 100%;
   }
 }
