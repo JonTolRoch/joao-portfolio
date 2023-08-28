@@ -37,3 +37,6 @@
 
 # Ignore environment variables file
 /.env
+
+#Ignore cloudinary API info
+/lib/scripts/cloudinary_upload.rb

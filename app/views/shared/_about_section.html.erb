@@ -2,10 +2,10 @@
   <div class="profile-bio-wrapper">
 
      <a href="#projects">
-        <%= image_tag("arrow-down.png",alt:"Scroll Down",class:"arrow-image-about")%>
+        <%= cl_image_tag("arrow-down.png",alt:"Scroll Down",class:"arrow-image-about")%>
       </a>
 
-    <%= image_tag("linkedin-picture.jpeg", alt: "Joao", class: "profile-image", data: { aos: "flip-left", aos_duration: 700, aos_delay: 250 }) %>
+    <%= cl_image_tag("profile-linkedin.jpeg", alt: "Joao", class: "profile-image", data: { aos: "flip-left", aos_duration: 700, aos_delay: 250 }) %>
     <div class="bio-container" data-aos="fade-right" data-aos-duration="700">
       <h3>Hello , i'm João.</h3>
       <p>
