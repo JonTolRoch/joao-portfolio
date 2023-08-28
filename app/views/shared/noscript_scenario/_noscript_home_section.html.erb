@@ -1,6 +1,6 @@
 <section id="home" class="home-section">
   <div class="typed-content">
-    <h2 class="static-text">Hello, I'm João! Full Stack Developer.</h2>
+    <h2 class="static-text">Portfolio Full Stack Development.</h2>
     <div class="intro-text">
       <!-- JS disabled message -->
       <p>Welcome to my website. Unfortunately, some features require JavaScript to function properly.</p>
@@ -9,15 +9,29 @@
 
   <div class="icons-row">
     <div class="icon-container">
-      <img src="assets/js-logo.png" alt="JS">
+      <%= cl_image_tag("ruby-logo.png", alt: "Ruby Logo") %>
     </div>
 
     <div class="icon-container">
-      <img src="assets/html-logo.png" alt="HTML">
+      <%= cl_image_tag("rails-icon.png", alt: "Ruby on Logo") %>
     </div>
 
     <div class="icon-container">
-      <img src="assets/css-logo.png" alt="CSS Logo">
+      <%= cl_image_tag("js-logo.png", alt: "JS") %>
+    </div>
+
+    <div class="icon-container">
+      <%= cl_image_tag("html-icon.png", alt: "HTML") %>
+    </div>
+
+    <div class="icon-container">
+      <%= cl_image_tag("css-logo.png", alt: "CSS Logo") %>
     </div>
   </div>
 </section>
+Please note that I've kept the formatting you provided, including the use of ERB tags (<%= %>) for embedding images using the cl_image_tag helper. Make sure that you've correctly configured Cloudinary and the cl_image_tag helper to display the images as intended.
+
+
+
+
+
