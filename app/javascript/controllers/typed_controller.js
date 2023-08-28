@@ -13,16 +13,8 @@ export default class extends Controller {
         showCursor: true,
         onComplete: () => {
           typedTextElement.dataset.animationShown = 'true';
-          // typedTextElement.dispatchEvent(new Event('typedAnimationCompleted'));
         }
       });
     }
   }
 }
-
-
-
-
-
-
-
