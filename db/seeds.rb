@@ -40,7 +40,7 @@ movietime = Project.create(
   image:'MovieTimeLogo.png',
   in_depth_description:"My First Solo Project provided invaluable learning experiences, testing my understanding of CRUD actions, MVC architecture, database management, and the integration of external APIs. The project was developed using the Ruby on Rails framework.",
   modal_image:'MovieTimeModal1.png',
-  modal_image_2:'MovieTimeModal2.png',
+  modal_image_2:'MovieTimeModal4.png',
   modal_image_3:'MovieTimeModal3.png',
   gh_repo:"https://github.com/JonTolRoch/again-list"
 )
