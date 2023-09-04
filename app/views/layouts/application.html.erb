@@ -20,20 +20,6 @@
     });
     </script>
 
-    <%# ADD AOS ANIMATION BUT LIMIT SCREEN SIZE SUPPORT TO AVOID BUGGY BEHAVIOUR %>
-    <script>
-      document.addEventListener("DOMContentLoaded",function(){
-        if (window.innerWidth < 768){
-          var disableAOS = document.querySelectorAll('[data-aos="flip-left"], [data-aos="fade-right"]')
-          disableAOS.forEach(function(element){
-            element.removeAttribute("data-aos");
-          });
-        }else{
-          AOS.init();
-        }
-      });
-    </script>
-
   </head>
   <body>
     <%= render "shared/links_column"%>
