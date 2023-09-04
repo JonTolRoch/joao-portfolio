@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 999;
 }
 .arrow-image-about {
   width: 60px;
@@ -17,7 +18,6 @@
   padding-bottom: 500px;
   right: 10px;
   transform: translateY(-50%);
-  z-index: 989;
 }
 .profile-image {
   padding-top: 40px;
@@ -81,7 +81,6 @@
     height: 250vh;
     display: flex;
     justify-content: center;
-    z-index: 0;
 }
 .profile-bio-wrapper {
     flex-direction: column;
@@ -124,7 +123,6 @@
       height: 250vh;
       display: flex;
       justify-content: center;
-      z-index: 0;
  }
   .profile-bio-wrapper {
       flex-direction: column;
@@ -162,7 +160,7 @@
     height: 160vh;
     display: flex;
     justify-content: center;
-    z-index: 0;
+
 }
 .profile-bio-wrapper {
     flex-direction: column;
@@ -202,7 +200,6 @@
     height: 150vh;
     display: flex;
     justify-content: center;
-    z-index: 0;
 
   }
 
