@@ -11,7 +11,7 @@ function logoAnimate() {
         container.dataset.animationShown = "true";
       }, delay);
     }
-    delay += 250;
+    delay += 0;
   });
 }
 document.addEventListener('DOMContentLoaded', () => {
