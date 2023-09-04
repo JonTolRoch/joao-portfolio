@@ -261,6 +261,8 @@
 // iPads, Tablets
 @media (min-width: 481px) and (max-width: 768px) {
      .project-main-container {
+     overflow-y: auto;
+     overflow-x: hidden;
      max-height: 80vh;
      display: flex;
      flex-direction: row;
@@ -381,10 +383,10 @@
   align-items: center;
 }
 
-.arrow-image-projects{
-  opacity: 0;
-  display: none;
-}
+// .arrow-image-projects{
+//   opacity: 0;
+//   display: none;
+// }
 
 .project-card {
   max-width: 50%;
@@ -403,12 +405,12 @@
 //   display: none;
 //  }
 .pan-animate{
- width: 50vw;
- position: absolute;
- object-fit: cover;
- padding-left: 20vh;
- bottom: 40px;
-}
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
+  padding-left: 20vh;
+  bottom: 40px;
+ }
 }
 
 

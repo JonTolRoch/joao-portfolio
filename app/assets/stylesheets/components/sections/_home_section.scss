@@ -273,10 +273,10 @@
     text-align: center;
   }
 
-  .arrow-image-home {
-    display: none;
-    opacity: 0;
-  }
+   .arrow-image-home {
+     display: none;
+     opacity: 0;
+   }
 
   .face-logo {
     padding-right: 20px;
@@ -374,8 +374,9 @@
 
  @media (min-width: 1024px) and (max-width:1024px){
    .arrow-image-home {
-     display: none;
-     opacity: 0;
+    //  display: none;
+    //  opacity: 0;
+     padding-bottom: 50vh;
    }
    .face-logo {
      margin: 0px;
