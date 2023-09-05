@@ -1,6 +1,6 @@
 function logoAnimate() {
 
-  const iconContainers = document.querySelectorAll('.icon-container');
+  const iconContainers = document.querySelectorAll('.iicon-container');
   let delay = 0;
   iconContainers.forEach((container) => {
     const animationShown = container.dataset.animationShown === "true";
